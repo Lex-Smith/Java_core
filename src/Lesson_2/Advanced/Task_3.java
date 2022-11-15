@@ -25,23 +25,23 @@ public class Task_3 {
             repairedParts = "no fuel, diagnostic - 1000\n";
         }
         if (hasMotorProblem) {
-            repairsAmount = repairsAmount + 10000;
-            breakingcount = breakingcount + 1;
+            repairsAmount += 10000;
+            breakingcount += 1;
             repairedParts = "Motor repair - 10000\n";
         }
         if (hasElectricsProblem) {
-            repairsAmount = repairsAmount + 5000;
-            breakingcount = breakingcount + 1;
+            repairsAmount += 5000;
+            breakingcount += 1;
             repairedParts = repairedParts + "Electrics repair - 5000\n";
         }
         if (hasTransmissionProblem){
-            repairsAmount = repairsAmount + 4000;
-            breakingcount = breakingcount + 1;
+            repairsAmount += 4000;
+            breakingcount += 1;
             repairedParts = repairedParts + "Transmission repair - 4000\n";
         }
         if (hasWheelsProblem) {
-            repairsAmount = repairsAmount + 2000;
-            breakingcount = breakingcount + 1;
+            repairsAmount += 2000;
+            breakingcount += 1;
             repairedParts = repairedParts + "Wheels repair - 2000\n";
         }
         if (hasTransmissionProblem && (hasElectricsProblem || hasMotorProblem)) {
