@@ -26,22 +26,22 @@ public class Task3 {
         }
         if (hasMotorProblem) {
             repairsAmount += 10000;
-            breakingcount += 1;
+            breakingcount ++;
             repairedParts = "Motor repair - 10000 rub.\n";
         }
         if (hasElectricsProblem) {
             repairsAmount += 5000;
-            breakingcount += 1;
+            breakingcount ++;
             repairedParts += "Electrics repair - 5000 rub.\n";
         }
         if (hasTransmissionProblem){
             repairsAmount += 4000;
-            breakingcount += 1;
+            breakingcount ++;
             repairedParts += "Transmission repair - 4000 rub.\n";
         }
         if (hasWheelsProblem) {
             repairsAmount += 2000;
-            breakingcount += 1;
+            breakingcount ++;
             repairedParts += "Wheels repair - 2000 rub.\n";
         }
         if (hasTransmissionProblem && (hasElectricsProblem || hasMotorProblem)) {

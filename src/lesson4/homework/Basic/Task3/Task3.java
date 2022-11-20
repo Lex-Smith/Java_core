@@ -4,7 +4,7 @@ public class Task3 {
     public static void main(String[] args) {
 
         //Этого в задании нет, сделал что-бы проверить работают классы или нет
-        
+
         Panda panda = new Panda("po", 0.1);
         panda.setName("Po");
         panda.setWeight(115.5);
