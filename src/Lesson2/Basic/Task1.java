@@ -1,6 +1,6 @@
-package Lesson_2.Basic;
+package Lesson2.Basic;
 
-public class Task_1 {
+public class Task1 {
     public static void main(String[] args) {
         double height = 1.78; //in meters
         double weight = 103; //in kilograms

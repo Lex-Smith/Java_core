@@ -1,6 +1,6 @@
-package Lesson_2.Basic;
+package Lesson2.Basic;
 
-public class Task_2 {
+public class Task2 {
     public static void main(String[] args) {
         int ageChildren = 30;
 

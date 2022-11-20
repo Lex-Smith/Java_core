@@ -1,18 +1,18 @@
-package Lesson_2.Advanced;
+package Lesson2.Advanced;
 
-public class Task_3 {
+public class Task3 {
     public static void main(String[] args) {
 
-        int repairsAmount = 0;
+        double repairsAmount = 0;
         int breakingcount = 0;
         String discount = "discount 0%";
         String repairedParts = "";
 
         boolean hasFuel = true;
         boolean hasElectricsProblem = true; //5000
-        boolean hasMotorProblem = false; //10000
+        boolean hasMotorProblem = true; //10000
         boolean hasTransmissionProblem = true; //4000
-        boolean hasWheelsProblem = false; //2000
+        boolean hasWheelsProblem = true; //2000
         boolean hasProblems = hasElectricsProblem || hasMotorProblem || hasTransmissionProblem || hasWheelsProblem;
 
         if (hasFuel && !hasProblems) {
@@ -22,27 +22,27 @@ public class Task_3 {
         if (!hasFuel && !hasProblems) {
             repairsAmount = 1000;
             discount = "diagnostic only\n";
-            repairedParts = "no fuel, diagnostic - 1000\n";
+            repairedParts = "no fuel, diagnostic - 1000 rub.\n";
         }
         if (hasMotorProblem) {
             repairsAmount += 10000;
             breakingcount += 1;
-            repairedParts = "Motor repair - 10000\n";
+            repairedParts = "Motor repair - 10000 rub.\n";
         }
         if (hasElectricsProblem) {
             repairsAmount += 5000;
             breakingcount += 1;
-            repairedParts = repairedParts + "Electrics repair - 5000\n";
+            repairedParts += "Electrics repair - 5000 rub.\n";
         }
         if (hasTransmissionProblem){
             repairsAmount += 4000;
             breakingcount += 1;
-            repairedParts = repairedParts + "Transmission repair - 4000\n";
+            repairedParts += "Transmission repair - 4000 rub.\n";
         }
         if (hasWheelsProblem) {
             repairsAmount += 2000;
             breakingcount += 1;
-            repairedParts = repairedParts + "Wheels repair - 2000\n";
+            repairedParts += "Wheels repair - 2000 rub.\n";
         }
         if (hasTransmissionProblem && (hasElectricsProblem || hasMotorProblem)) {
             repairsAmount = repairsAmount / 100 * 80;
@@ -53,7 +53,7 @@ public class Task_3 {
             discount = "discount 10%\n";
         }
         String check = "number of broken parts - " + breakingcount + " PCS\n"
-                + repairedParts + discount + "\n" + "repair amount = " + repairsAmount;
+                + repairedParts + discount + "\n" + "repair amount = " + repairsAmount + " rub.";
 
         System.out.println(check);
 

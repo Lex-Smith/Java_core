@@ -1,6 +1,6 @@
-package Lesson_2.Advanced;
+package Lesson2.Advanced;
 
-public class Task_2 {
+public class Task2 {
     public static void main(String[] args) {
         int a = 3;
         int b = 5;

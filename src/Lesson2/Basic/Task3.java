@@ -1,6 +1,6 @@
-package Lesson_2.Basic;
+package Lesson2.Basic;
 
-public class Task_3 {
+public class Task3 {
     public static void main(String[] args) {
 
         boolean chicken = false;//Курица
