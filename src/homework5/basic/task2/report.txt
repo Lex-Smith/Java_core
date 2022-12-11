@@ -1,0 +1,1 @@
+Incomes = 500, Outcomes = 300
