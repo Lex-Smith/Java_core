@@ -1,4 +1,4 @@
-package homework5.basic.task1;
+package homework5.Basic.task1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,7 +11,7 @@ public class Task1 {
         String firstLine = "My grandmother";
         String secondLine = "reading the newspaper life";
 
-        String file = "src\\homework5\\basic\\task1\\babushka.txt";
+        String file = "src\\homework5\\Basic\\task1\\babushka.txt";
         FileWriter fileWriter = new FileWriter(file);
         fileWriter.write(firstLine + "\n" + secondLine);
         fileWriter.close();

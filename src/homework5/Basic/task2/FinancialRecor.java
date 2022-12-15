@@ -1,4 +1,4 @@
-package homework5.basic.task2;
+package homework5.Basic.task2;
 
 public class FinancialRecor {
 
