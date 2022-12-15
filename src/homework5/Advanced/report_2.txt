@@ -1,0 +1,10 @@
+Incomes = 8985, Outcomes = 4588
+Incomes = 1847, Outcomes = 313
+Incomes = 4254, Outcomes = 4904
+Incomes = 4434, Outcomes = 6606
+Incomes = 9978, Outcomes = 1748
+Incomes = 6569, Outcomes = 8473
+Incomes = 317, Outcomes = 1263
+Incomes = 5562, Outcomes = 1234
+Incomes = 5592, Outcomes = 1262
+Incomes = 8596, Outcomes = 2189
